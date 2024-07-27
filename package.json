@@ -1,0 +1,26 @@
+{
+  "name": "simple.portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/color-mode": "^3.4.2",
+    "core-js": "^3.25.3",
+    "nuxt": "^3.12.4",
+    "pinia": "^2.2.0",
+    "vue": "^3.0.0",
+    "vuex": "^4.1.0"
+  },
+  "devDependencies": {
+    "@iconify/vue": "^4.1.2",
+    "@nuxtjs/tailwindcss": "^6.12.1",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.40",
+    "tailwindcss": "^3.4.7"
+  }
+}

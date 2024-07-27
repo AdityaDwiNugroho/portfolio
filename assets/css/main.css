@@ -1,0 +1,31 @@
+/* ~/assets/css/main.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global styles */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Dark mode styles */
+.dark body {
+  background-color: #1a202c; /* Dark background color */
+  color: #edf2f7; /* Light text color */
+}
+
+.dark .bg-gray-900 {
+  background-color: #1a202c;
+}
+
+.dark .text-white {
+  color: #edf2f7;
+}
+
+.dark .bg-gray-800 {
+  background-color: #2d3748;
+}
+
+.dark .bg-gray-100 {
+  background-color: #edf2f7;
+}
